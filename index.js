@@ -1,8 +1,13 @@
 // document.getElementById("count-el").innerHTML = 50;
-
-let lapsCompleted = 0;
+let saveEl = document.getElementById("save-el");
+let countEl = document.getElementById("count-el");
+let count = 0;
 
 function increment(){
-    lapsCompleted++;
-    document.getElementById("count-el").innerHTML = lapsCompleted;
+    count++;
+    countEl.innerHTML = count;
+}
+
+function save(){
+    saveEl.innerHTML += count + "-";
 }

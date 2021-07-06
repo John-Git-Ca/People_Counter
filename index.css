@@ -15,18 +15,21 @@ h2 {
   margin-bottom: 20px;
 }
 button {
+  width: 100px;
   border: none;
   padding-top: 10px;
   padding-bottom: 10px;
   color: white;
   margin-bottom: 5px;
   border-radius: 5px;
+  background-color: darkgreen;
 }
 
 #increment-btn {
   background-color: darkred;
 }
-#increment-btn:hover {
+#increment-btn:hover,
+button:hover {
   cursor: pointer;
   background-color: blue;
 }
